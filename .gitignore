@@ -1,0 +1,8 @@
+ $ cat .gitignore
+    # exclude everything except directory foo/bar
+    /*
+    !uboot/scripts/dtc/dtc-lexer.lex.c
+    !optee_client/out/export/*
+    **.o
+    **.ko
+    **.cmd
